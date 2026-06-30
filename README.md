@@ -37,7 +37,7 @@ The following project highlights the combination of both **technical skill** set
 
 **Visual Elements:** Features paired column charts comparing current Stock Levels directly against Order Quantities across all 100 SKUs. Includes a clustered column chart contrasting supplier delivery lead times against internal Manufacturing Lead Times, and a scatter plot exploring price elasticity (Price vs. Total Products Sold) categorized by product type.
 
-![Dashboard](Images/Supplier.png)
+![Dashboard](Images/Product.png)
 
 ### Supplier Analytics Page
 **Focus:** Quality assurance, risk management, and logistics expenditure.
