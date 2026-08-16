@@ -1,6 +1,6 @@
 # Supply Chain Dashboard / Power BI
 ## Introduction
-**Company Overview:** Aura Logistics & Cosmetics Co. is a consumer goods corporation that operates within three main product categories, namely Haircare, Cosmetics, and Skincare. It operates a sophisticated **supply chain** consisting of various international suppliers, shipping service providers, and modes of transport including air, rail, road, and sea.
+**Company Overview:** Aura Logistics & Cosmetics Co. is a company that operates within three main product categories : Haircare, Cosmetics, and Skincare. It runs a sophisticated **supply chain** based on international suppliers, shipping service providers, and different modes of transport including air, rail, road, and sea.
 
 **The Problem:** The data was scattered into one single flat file (supply_chain_data.csv) and thus **limited visibility** for the executives. The corporation was faced with slim profit margins, inventory imbalances, and inconsistency in quality but without knowing the reasons behind them.
 
