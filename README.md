@@ -15,24 +15,23 @@ In this project, combining both **technical knowledge** and **domain knowledge**
 
 **Business Intelligence (DAX):** Developing business rules that help derive actual profit numbers down to Stock Keeping Units (SKUs).
 
-**UI/UX & Dashboard Structure:** functional layouts with clear design, navigation bars and conditional formatting.
+**Dashboard Structure:** functional layouts with clear design, navigation bars and conditional formatting.
 **Operations & Analytics:** Combining individual metrics (such as: lead time to inventory level) to identifie bottlenecks.
-
 
 ## Dashboard Overview
 ### Executive Overview Page
-**Focus:** High-level executive monitoring of corporate health.
+**Focus:** Overall insights into the main key performance indicators of the company's supply chain.
 
-**Core Metrics:** Displays high-level tracking of Total Revenue, Total Products Sold, Total Costs, Average Profit Margin, and Current Stock Levels using unified KPI cards.
+**Core Metrics:** Total Revenue, Total Products Sold, Total Costs, Average Profit Margin, and Current Stock Levels using unified cards.
 
-**Visual Elements:** Includes a revenue breakdown by Customer Demographics (Male, Female, Non-binary, Unknown) and Product Types via donut charts, alongside a column chart tracking distribution across individual Shipping Carriers and a horizontal ranking of the Top 5 SKUs by Revenue.
+**Visual Elements:**  A revenue breakdown by Customer Demographics (Male, Female, Unknown) and Product Types via donut charts, alongside a column chart tracking distribution across individual Shipping Carriers and a horizontal ranking of the Top 5 SKUs by Revenue.
 
 ![Dashboard](Images/Overview.png)
 
 ### Product Insights Page
 **Focus:** Inventory management and demand-supply alignment.
 
-**Core Metrics:** Evaluates order quantities, storage capacities, and manufacturing timelines.
+**Core Metrics:** Order quantities, storage capacities, and manufacturing timelines.
 
 **Visual Elements:** Features paired column charts comparing current Stock Levels directly against Order Quantities across all 100 SKUs. Includes a clustered column chart contrasting supplier delivery lead times against internal Manufacturing Lead Times, and a scatter plot exploring price elasticity (Price vs. Total Products Sold) categorized by product type.
 
@@ -48,25 +47,22 @@ In this project, combining both **technical knowledge** and **domain knowledge**
 ![Dashboard](Images/Supplier.png)
 
 ## Connecting the Dots: Identifying the Problems
-By cross-referencing data points across the three pages, three critical supply chain vulnerabilities were identified:
+By observing the data across the three pages, three critical supply chain problems were identified:
 
-**The Lead Time-Stock Disconnect:** Several high-revenue SKUs display prolonged manufacturing lead times, yet their current stock levels are dangerously low. This exposes the company to severe stockout risks and unfulfilled customer demand.
+**In the Queue Time  Stock Issue:** we see that some of our highest revenue SKUs have very long manufacturing lead times which at the same time have very low stock levels. This puts the company at risk of stock outs and lost customer sales. 
 
-**Transportation Cost Inefficiencies:** Analyzing logistics spend reveals that Air freight accounts for an excessively high proportion of total shipping costs. However, Air transit does not yield a significant drop in product defect rates compared to cheaper options like Road or Rail, leading to margin erosion.
+**Transportation Waste:** We see that air freight makes up a large part of our total spend in logistics. Also we note that in the case of air transport we do not see a great reduction in product defects as we do with the more economic options of road or rail which in turn is causing our margins to drop. 
 
-**High-Defect Vendor Risks:** The supplier analysis reveals specific vendors operating with average defect rates well above the acceptable baseline. These high defect rates generate hidden costs during the manufacturing phase, heavily penalizing the net margins of finished goods.
+**High Defect Issues with Vendors:** We see that which suppliers we are working with have average defect rates which are very high above what we accept as the base line. These high defect rates in turn produce hidden costs which we see at the manufacturing stage and which in large part eat into our net profits.
 
 ## Action Plan: Supply Chain Optimization
-To resolve these operational bottlenecks and stabilize the company's bottom line, the following three-phase action plan has been formulated:
+To address these operational issues and improve the company’s supply chain, we have put the following three phase action plan:
 
-**Short-Term (Immediate):** Inventory Buffer Stabilization
-Establish dynamic safety stock levels for the top 5 revenue-generating SKUs. Readjust reorder points for items where internal manufacturing timelines exceed standard supplier delivery windows to ensure continuous fulfillment.
+**Short-Term (Immediate):** We will set dynamic safety stock levels for our top 5 revenue generating SKUs. Also we will review reorder points for products which have internal manufacturing lead times that surpass standard supplier delivery times and we will adjust as required to ensure continuous fill rate.
 
-**Medium-Term (3–6 Months):** Freight Mode Rationalization
-Transition non-urgent, heavy-volume SKU shipments from high-cost Air freight to more economical modes like Road or Rail. Re-negotiate shipping contracts to establish clear, performance-linked freight rates.
+**Medium-Term (3–6 Months):** we will see a shift in Freight Mode which is a gradual process.We will be moving out of air freight which is used for non-urgent large volume SKU’s into more economic modes of transport like Road and Rail. Also we will be going back to the drawing board with our shipping contracts to put in place performance based freight rates.
 
-**Long-Term (6+ Months):** Supplier Quality Assurance (QA) Integration
-Implement a strict vendor scorecard program. Suppliers consistently exceeding the maximum allowable defect threshold will be placed on a corrective improvement timeline or systematically phased out in favor of higher-quality, higher-margin alternatives.
+**Long-Term (6+ Months):**for Supplier Quality Assurance (QA) we will put in place a strict vendor score card program. We will put into action a corrective improvement plan or will phase out suppliers that continuously exceed the max defect threshold in in favor of better quality, higher margin options.
 
 ## Conclusion
-This project has shown how the conversion of raw operational data into **business intelligence data** can help reveal **supply chain** weaknesses. We cleaned the supply_chain_data.csv file using Power Query and developed a very coherent 3-page **Power BI report**. In doing this, we have gone from simply gathering data to analyzing the operations of the business, thereby putting into action the proposed optimization strategy that will enable the firm to plug any **leaks of profit** and save itself from **losses**.
+This project has shown how the conversion of raw operational data into **business intelligence data** can help reveal **supply chain** weaknesses. We prepared the supply_chain_data.csv file with Power Query and put together a very clean 3 page Power BI report. In the process we went beyond just data collection to business analysis which in turn we put toward the implementation of the put forth optimization strategy which will see the company **plug profit leaks** and **avoid loss**. 
