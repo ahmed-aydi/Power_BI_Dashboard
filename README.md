@@ -9,15 +9,14 @@
 ![Dashboard](Images/Overview.png)
 [View intercative dashboard here on the Power BI Service](https://app.powerbi.com/view?r=eyJrIjoiYTE4NmY4MjYtY2VmOC00YTE2LWJlYjgtZTA4ZGU0M2FlZmJmIiwidCI6IjFlNzI1ZjFjLWFjMjUtNDhmMy04MWJiLWE4YjkzNWVhNWUwMyIsImMiOjh9)
 ## Skills Showcased
-The following project highlights the combination of both **technical skill** sets and knowledge within the **Industrial Engineering** realm:
+In this project, combining both **technical knowledge** and **domain knowledge** was the key to build the report:
 
-**Data Engineering & ETL:** Loading flat files, establishing consistent naming conventions, changing data types, and cleansing text through Power Query.
+**Data Engineering & ETL:** Loading files, changing data types, and cleansing text with Power Query.
 
 **Business Intelligence (DAX):** Developing business rules that help derive actual profit numbers down to Stock Keeping Units (SKUs).
 
-**UI/UX & Dashboard Structure:** Creating functional layouts with contrasted design, custom navigation bars, custom design borders, and conditional formatting.
-
-**Operations & Analytics:** Combining individual metrics (such as correlating lead time to inventory level) for bottleneck identification.
+**UI/UX & Dashboard Structure:** functional layouts with clear design, navigation bars and conditional formatting.
+**Operations & Analytics:** Combining individual metrics (such as: lead time to inventory level) to identifie bottlenecks.
 
 
 ## Dashboard Overview
