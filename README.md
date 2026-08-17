@@ -5,8 +5,8 @@
 **The Problem:** The data was scattered into one single flat file (supply_chain_data.csv) and thus **limited visibility** for the executives. The corporation was faced with slim profit margins, inventory imbalances, and inconsistency in quality but without knowing the reasons behind them.
 
 **The Aim:** The objective of the project was to consume raw operational data from the company, engineer **key performance indicators**, and create an interactive 3-page Business Intelligence report using **Power BI**.
+<img width="1405" height="792" alt="Overview" src="https://github.com/user-attachments/assets/1308f0fb-c079-4e86-b537-5afc79f33555" />
 
-![Dashboard](Images/Overview.png)
 [View intercative dashboard here on the Power BI Service](https://app.powerbi.com/view?r=eyJrIjoiYTE4NmY4MjYtY2VmOC00YTE2LWJlYjgtZTA4ZGU0M2FlZmJmIiwidCI6IjFlNzI1ZjFjLWFjMjUtNDhmMy04MWJiLWE4YjkzNWVhNWUwMyIsImMiOjh9)
 ## Skills Showcased
 In this project, combining both **technical knowledge** and **domain knowledge** was the key to build the report:
@@ -26,7 +26,7 @@ In this project, combining both **technical knowledge** and **domain knowledge**
 
 **Visual Elements:**  A revenue breakdown by Customer Demographics (Male, Female, Unknown) and Product Types via donut charts, alongside a column chart tracking distribution across individual Shipping Carriers and a horizontal ranking of the Top 5 SKUs by Revenue.
 
-![Dashboard](Images/Overview.png)
+<img width="1405" height="792" alt="Overview" src="https://github.com/user-attachments/assets/7ba4dfab-ea05-46f2-b1bd-9e1b7a0d3490" />
 
 ### Product Insights Page
 **Focus:** Inventory management and demand-supply alignment.
@@ -35,7 +35,7 @@ In this project, combining both **technical knowledge** and **domain knowledge**
 
 **Visual Elements:** Features paired column charts comparing current Stock Levels directly against Order Quantities across all 100 SKUs. Includes a clustered column chart contrasting supplier delivery lead times against internal Manufacturing Lead Times, and a scatter plot exploring price elasticity (Price vs. Total Products Sold) categorized by product type.
 
-![Dashboard](Images/Product.png)
+<img width="1407" height="795" alt="Product" src="https://github.com/user-attachments/assets/419124f0-f986-4683-b893-9623124463ef" />
 
 ### Supplier Analytics Page
 **Focus:** Quality assurance, risk management, and logistics expenditure.
@@ -44,7 +44,7 @@ In this project, combining both **technical knowledge** and **domain knowledge**
 
 **Visual Elements:** Features a stacked bar chart breaking down cost compositions (Normal Cost, Manufacturing Cost, Shipping Cost) per supplier. Includes donut charts analyzing total cost distributions and average defect rates across different Transportation Modes. Concludes with an analytical scatter plot correlating supplier Defect Rates directly against net Profit Margins.
 
-![Dashboard](Images/Supplier.png)
+<img width="1412" height="801" alt="Supplier" src="https://github.com/user-attachments/assets/36e580c7-02c4-464e-a707-37dfade18c51" />
 
 ## Connecting the Dots: Identifying the Problems
 By observing the data across the three pages, three critical supply chain problems were identified:
