@@ -62,7 +62,7 @@ To address these operational issues and improve the company’s supply chain, we
 
 **Medium-Term (3–6 Months):** we will see a shift in Freight Mode which is a gradual process.We will be moving out of air freight which is used for non-urgent large volume SKU’s into more economic modes of transport like Road and Rail. Also we will be going back to the drawing board with our shipping contracts to put in place performance based freight rates.
 
-**Long-Term (6+ Months):**for Supplier Quality Assurance (QA) we will put in place a strict vendor score card program. We will put into action a corrective improvement plan or will phase out suppliers that continuously exceed the max defect threshold in in favor of better quality, higher margin options.
+**Long-Term (6+ Months):** for Supplier Quality Assurance (QA) we will put in place a strict vendor score card program. We will put into action a corrective improvement plan or will phase out suppliers that continuously exceed the max defect threshold in in favor of better quality, higher margin options.
 
 ## Conclusion
 This project has shown how the conversion of raw operational data into **business intelligence data** can help reveal **supply chain** weaknesses. We prepared the supply_chain_data.csv file with Power Query and put together a very clean 3 page Power BI report. In the process we went beyond just data collection to business analysis which in turn we put toward the implementation of the put forth optimization strategy which will see the company **plug profit leaks** and **avoid loss**. 
