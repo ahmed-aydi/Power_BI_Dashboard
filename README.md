@@ -11,7 +11,7 @@
 ## Skills Showcased
 In this project, combining both **technical knowledge** and **domain knowledge** was the key to build the report:
 
-**Data Engineering & ETL:** Loading files, changing data types, and cleansing text with Power Query.
+**Data Engineering & ETL:** Loading files, changing data types, and cleaning text with Power Query.
 
 **Business Intelligence (DAX):** Developing business rules that help derive actual profit numbers down to Stock Keeping Units (SKUs).
 
